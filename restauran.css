@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "tanha";
+        src: url(./fonts/Tanha.eot);
+        src: url(./fonts/Tanha.eot) format('embedded-opentype'),
+            url(./fonts/Tanha.woff2) format('woff2'),
+            url(./fonts/Tanha.woff) format('woff'),
+            url(./fonts/Tanha.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Vazir Code Hack";
+    src: url(./fonts/Vazir-Code-Hack.eot);
+    src: url(./fonts/Vazir-Code-Hack.eot) format('embedded-opentype'),
+         url(./fonts/Vazir-Code-Hack.woff2) format('woff2'),
+         url(./fonts/Vazir-Code-Hack.woff) format('woff'),
+         url(./fonts/Vazir-Code-Hack.ttf) format('truetype');
+}
+
+body {
+    font-size: 20px;
+    color: white;
+    background: url(./images/food01.jpg) fixed 0 40%/ cover no-repeat;
+    filter: drop-shadow(10px 10px 5px rgba(36, 35, 35 10));
+}
+
+.box {
+    width: 900px;
+    float: right;
+    border: 1px solid none;
+  }
+
+.box ul li {
+    width: 120px;
+      float: right;
+      margin: 12px auto;
+      text-align: center;
+      list-style: none;
+}
+
+
+.mainmenu {
+    display: inline;
+    padding: 8px;
+    font-weight: bold;
+    width: 110px;
+    height: 80px;
+
+}
+
+.mainmenu ul li a {
+    width: 160px;
+    float: right;
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+    position: relative;
+}
+
+
+.mainmenu ul li a:hover {
+    color: rgb(247, 51, 17);
+    text-decoration: underline;
+}
+
+.mainmenu ul li a:active {
+    color: rgb(54, 71, 221);
+}
+
+
+.wd h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    padding: 90px 35px 10px;
+}
+
+.wd h2 {
+    width: fit-content;
+    padding: 10px 20px;
+    border: 3px solid black;
+    margin: 5px 10px;
+
+}
+
+.wd h4 {
+    padding: 15px 20px 10px;
+    width: 200px;
+    height: 52px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.opt form {
+    margin: 10px;
+}
+
+.opt p {
+    padding: 20px 20px;
+}
